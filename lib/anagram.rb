@@ -5,7 +5,10 @@ class Anagram
     @word = word
   end
 
-  def match
+  def match(array)
+    array.each  do |word|
+      
+    end
   end
 
 end
