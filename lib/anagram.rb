@@ -8,6 +8,7 @@ class Anagram
 
   def match(array)
     array.select do |word|
+      binding.pry
 
     end
   end
