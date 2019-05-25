@@ -2,13 +2,13 @@ require 'pry'
 class Anagram
   attr_accessor :word
 
-  def initialize
+  def initialize(word)
     @word = word
   end
 
   def match(array)
     array.each do |word|
-      binding.pry
+
     end
   end
 
